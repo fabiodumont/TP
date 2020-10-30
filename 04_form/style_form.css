@@ -1,0 +1,79 @@
+body{
+    background-color: #00010a;
+}
+
+input{
+    color: #b1afaf;
+}
+
+textarea{
+    color: #b1afaf;
+    width: 90%;
+}
+
+
+
+
+.h1{
+    font-size: calc(1.5em + 1.5vw);
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.titulo{
+    font-size: calc(0,8em + 0,8vw);
+    color: #fcbf29;
+    text-align: left;
+}
+
+.campo_resposta{
+background-color: #3a3a3a;
+width: 100%;
+color: rgb(180, 179, 179);
+}
+
+
+.label{
+    background-color: #00031D;
+    font-size: calc(0,2em + 0,2vw);
+    color: #fdbc17;
+    width: fit-content;
+}
+
+tr, th, td{
+    border: solid 1px;
+}
+
+input:required:invalid, input:focus:invalid, textarea:required:invalid, textarea:focus:invalid{
+        background: url("imagens/wrong.gif") no-repeat;
+        background-position: right;
+    } 
+
+    input:required:valid, textarea:required:valid{ 
+        background: url("imagens/check.png") no-repeat;
+        background-position: right;
+    }
+
+    .tamanho{
+        width: 90%;
+    }
+    
+    .tamanho2{
+        width: auto;
+        height: auto;
+    }
+    
+    .tamanho3{
+        width: 30%;
+    }
+
+    .tamanho4{
+        width: 20%;
+    }
+    
+    .botao{
+        background-color: rgb(1, 5, 19);
+        color: rgb(250, 253, 253);
+
+    }

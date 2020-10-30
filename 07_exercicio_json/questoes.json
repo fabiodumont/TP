@@ -1,0 +1,204 @@
+const questoes =[
+    {
+        "question": "Qual a cidade da foto? Dica: Fica na Europa",
+        "link": "imagens/paris.png",
+        "answers": [
+            {
+                "text": "Paris",
+                "correct": true
+            },
+            {
+                "text": "Sydney",
+                "correct": false
+            },
+            {
+                "text": "Roma",
+                "correct": false
+            },
+            {
+                "text": "Hong Kong",
+                "correct": false
+            }
+        ],
+    },
+    {
+        "question": "Qual a cidade da foto? Dica: Tem mais de mil anos",
+        "link": "imagens/roma.png",
+        "answers": [
+            {
+                "text": "Londres", "correct": false
+            },
+            {
+                "text": "Roma", "correct": true
+            },
+            {
+                "text": "Foz do Iguaçu", "correct": false
+            },
+            {
+                "text": "Buenos Aires", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/cingapura.jpg",
+        "answers": [
+            {
+                "text": "Estocolmo", "correct": false
+            },
+            {
+                "text": "Cingapura", "correct": true
+            },
+            {
+                "text": "Paris", "correct": false
+            },
+            {
+                "text": "Buenos Aires", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/buenos.png",
+        "answers": [
+            {
+                "text": "Roma", "correct": false
+            },
+            {
+                "text": "Buenos Aires", "correct": true
+            },
+            {
+                "text": "Paris", "correct": false
+            },
+            {
+                "text": "Dubai", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/Londres.jpg",
+        "answers": [
+            {
+                "text": "Dubai", "correct": false
+            },
+            {
+                "text": "Foz do Iguaçu", "correct": false
+            },
+            {
+                "text": "Londres", "correct": true
+            },
+            {
+                "text": "Dubai", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/foz.png",
+        "answers": [
+            {
+                "text": "Londres", "correct": false
+            },
+            {
+                "text": "Paris", "correct": false
+            },
+            {
+                "text": "Cidade do México", "correct": false
+            },
+            {
+                "text": "Foz do Iguaçu", "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/mexico.jpg",
+        "answers": [
+            {
+                "text": "Foz do Iguaçu", "correct": false
+            },
+            {
+                "text": "Cidade do México", "correct": true
+            },
+            {
+                "text": "Paris", "correct": false
+            },
+            {
+                "text": "Dubai", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/sydney.png",
+        "answers": [
+            {
+                "text": "Sydney", "correct": true
+            },
+            {
+                "text": "Buenos Aires", "correct": false
+            },
+            {
+                "text": "Estocolmo", "correct": false
+            },
+            {
+                "text": "Londres", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/dubai.png",
+        "answers": [
+            {
+                "text": "Dubai", "correct": true
+            },
+            {
+                "text": "Roma", "correct": false
+            },
+            {
+                "text": "Hong Kong", "correct": false
+            },
+            {
+                "text": "Cidade do México", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/estocolmo.png",
+        "answers": [
+            {
+                "text": "Estocolmo", "correct": true
+            },
+            {
+                "text": "Sydney", "correct": false
+            },
+            {
+                "text": "Londres", "correct": false
+            },
+            {
+                "text": "Paris", "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Qual a cidade da foto?",
+        "link": "imagens/hong.jpg",
+        "answers": [
+            {
+                "text": "Dubai", "correct": false
+            },
+            {
+                "text": "Roma", "correct": false
+            },
+            {
+                "text": "Sydney", "correct": false
+            },
+            {
+                "text": "Hong Kong", "correct": true
+            }
+        ]
+    },
+]

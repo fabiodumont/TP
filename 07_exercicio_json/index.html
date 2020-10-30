@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="imagem"></div>
+      <div id="pergunta" class="pergunta">PERGUNTA</div>
+      <div id="pontuacao" class="pergunta"></div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Resposta 1</button>
+        <button class="btn">Resposta 2</button>
+        <button class="btn">Resposta 3</button>
+        <button class="btn">Resposta 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Começar</button>
+      <button id="next-btn" class="next-btn btn hide">Próximo</button>
+    </div>
+  </div>
+</body>
+
+<!--Imports-->
+<link href="styles.css" rel="stylesheet">
+<script type="text/javascript" src="questoes.json"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,65 @@
+html{
+    font-family: Arial, 'Times New Roman';
+}
+
+body{
+    background-color:#02557d;
+}
+
+
+
+.imagem_fundo{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 20vw;
+    object-fit: cover;
+    padding-top: 1em;
+    overflow: hidden;
+}
+
+.imagem_perfil{
+    position: relative;
+    float: left;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: -8%;
+    margin-left: 2%;
+}
+
+.nome{
+      font-size: 2em;
+    color: #0f0f0f;
+   padding-left: 20% ;
+   margin-top: -2.5%;
+   
+}
+
+a:link {color:#ffffff;}    /* link sem visita */
+a:visited {color:#ffffff;} /* link visitado */
+a:hover {color:#11e711;}   /* link mouse over */
+a:active {columns: #11e711;}  /* link selecionado*/
+
+a{
+    float:right;
+    margin-top: -2em;
+    margin-right: 15em;
+    
+}
+
+.p1{
+    text-align: center;
+    margin-top: 10em;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.p2{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    
+}
+
+
+
+

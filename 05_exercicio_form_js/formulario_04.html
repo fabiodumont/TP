@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" type="text/css" href="style_form.css">
+    <script src="arquivo.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+<body>
+     
+    <h1 class="h1">Cadastre seu currículo</h1>
+  
+    <form name="form04">
+         <h2 class="titulo">1. Dados Pessoais</h2><br>
+         
+         <table>
+             <tr>
+                 <td class="label"> Nome </td>
+                 <td class="campo_resposta"><input type="text" name="nome" placeholder="Digite seu nome" class="tamanho" id="nome" /></td>
+             </tr>
+             <tr>
+                <td class="label"> Data de Nascimento </td>
+                <td class="campo_resposta"><input type="date" name="data" class="tamanho"/></td>
+            </tr>
+            <tr>
+                <td class="label"> Estado Civil </td>
+                <td class="campo_resposta"><input type="text" name="estado_civil" list="estado_civil" placeholder="Selecione o Estado Civil" class="tamanho"/>
+                    <datalist id="estado_civil">
+                        <option value="Solteiro"></option>
+                        <option value="Casado"></option>
+                        <option value="Viúvo"></option>
+                        <option value="Divorciado"></option>
+                    </datalist>
+                    <span id= "estado_civil_erro"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label"> Sexo </td>
+                <td class="campo_resposta">
+                    <input type="radio" name="sexo" value="male" />Masculino
+                    <input type="radio" name="sexo" value="female"/>Feminino<br> 
+                    </td>
+            </tr>
+         </table>
+         
+         <h3 class="titulo">2. Objetivo</h3><br>  
+           <table>
+            <tr>
+                <td class="label"> Objetivo </td>
+                <td class="campo_resposta"><textarea name="objetivo" cols="50" rows="3"  required placeholder="Digite seu objetivo" ></textarea></td>
+            </tr>
+           </table>
+
+        <h4 class="titulo">3. Contato</h4><br>
+        <table>
+            <tr>
+                <td class="label"> Endereço </td>
+                <td class="campo_resposta"><input type="text" name="endereço" placeholder="Digite seu endereço" class="tamanho" required /></td>
+            </tr>
+
+            <tr>
+                <td class="label"> Cidade/ Estado </td>
+                <td class="campo_resposta"><input type="text" name="cidade" placeholder="Digite sua cidade" class="tamanho3" required /><b>&nbsp; /&nbsp;</b>
+                    <input type="text" name="estado" placeholder="Digite seu estado" class="tamanho3" required pattern="[A-Z]{2}"/></td>
+            </tr>
+
+            <tr>
+                <td class="label"> CEP </td>
+                <td class="campo_resposta"><input type="text" name="cep" placeholder="Digite seu CEP no formato 99999-999" class="tamanho" required pattern="[0-9]{5}[\-][0-9]{3}"/></td>
+            </tr>
+
+            <tr>
+                <td class="label"> Telefone </td>
+                <td class="campo_resposta"><input type="tel" name="telefone" placeholder="Digite seu telefone no formato (99) 9999-9999" class="tamanho" pattern="[\(][0-9]{2}[\)][\s][0-9]{4}[\-][0-9]{4}">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label"> E-mail </td>
+                <td class="campo_resposta"><input type="email"  name="email" placeholder="Digite seu e-mail" class="tamanho" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/></td>
+            </tr>
+
+            <tr>
+                <td class="label"> Rede Social </td>
+                <td class="campo_resposta"><img src="imagens/face.png">&nbsp;http://facebook.com/&nbsp;
+                    <input type="text" name="facebook" placeholder="Perfil Facebook" class="tamanho4"/>
+                    <br>
+                    <img src="imagens/linkedin.png">&nbsp;http://linkedin.com/&nbsp;
+                    <input type="text" name="linkedin" placeholder="Perfil Linkedin" class="tamanho4" />
+                    <br>
+                    <img src="imagens/twitter.png">&nbsp;http://twitter.com/&nbsp;
+                    <input type="text" name="twitter" placeholder="Perfil Twitter" class="tamanho4" />
+                    <br>
+                    <img src="imagens/skype.png">&nbsp;
+                    <input type="text" name="skype" placeholder="Perfil Skype" class="tamanho4" />
+
+                </td>
+            </tr>
+        </table>
+        
+        <h5 class="titulo">4. Conhecimentos</h5><br>
+        <table>
+            <tr>
+                <td class="label"> Linguagens de Programação </td>
+                <td class ="campo_resposta"><input type="checkbox" name="conhecimento" value="c/c++" />C/C++<br>
+                    <input type="checkbox" name="conhecimento" value="java" />Java<br>
+                    <input type="checkbox" name="conhecimento" value="vb" />Visual Basic<br>
+                    <input type="checkbox" name="conhecimento" value="net" />.Net<br>
+                    <input type="checkbox" name="conhecimento" value="php" />PHP<br>
+                    <input type="checkbox" name="conhecimento" value="python" />Python<br>
+                    <input type="checkbox" name="conhecimento" value="html" />HTML<br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label"> Idiomas </td>
+                <td class="campo_resposta">Inglês &nbsp;
+                <select name="idiomaIngles">
+                    <option selected value="Nível">Nível</option>
+                    <option value="Básico">Básico</option>
+                    <option value="Intermediário">Intermediário</option>
+                    <option value="Avançado">Avançado</option>
+                </select>
+                    &nbsp;&nbsp;
+                    <b>|</b>
+                    Espanhol &nbsp;
+                <select name="idiomaEspanhol">
+                     <option selected value="Nível">Nível</option>
+                     <option value="Básico">Básico</option>
+                     <option value="Intermediário">Intermediário</option>
+                     <option value="Avançado">Avançado</option>
+                </select>
+
+                </td>
+            </tr>
+        
+        </table>
+         
+        <input type="button" value="Limpar" class="botao" onclick="limpar()"/>
+        <input type="button" value="Enviar" class="botao" onclick="enviar()"/> 
+           
+       
+    </form>
+</body>
+</html>
