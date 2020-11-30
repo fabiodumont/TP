@@ -10,7 +10,19 @@
     <title>Buenos Aires</title>
 </head>
 <body>
-
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "aaa2ab02-6c60-4fa9-9b39-bf2bf468cc92", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "ebfeb1d3-32d4-4c66-8d05-7bf5da9b2a9f", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">PucTravel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
