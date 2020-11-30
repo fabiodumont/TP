@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+    <llik rel="stylesheet" href="style.css">
+    <script rel="text/javascript" src="bootstrap\js\jquery-3.5.1.min.js"> </script>
+    <script rel ="text/javascript"src="bootstrap\js\bootstrap.js"> </script>
+    <title>Roma</title>
+</head>
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "aaa2ab02-6c60-4fa9-9b39-bf2bf468cc92", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "ebfeb1d3-32d4-4c66-8d05-7bf5da9b2a9f", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">PucTravel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cidades
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="roma.html">Roma</a>
+            <a class="dropdown-item" href="buenosAires.html">Buenos Aires</a>
+            <a class="dropdown-item" href="FozDoIguacu.html">Foz do Iguaçu</a>
+            <a class="dropdown-item" href="ny.html">Nova York</a>
+            <a class="dropdown-item" href="tokyo.html">Tokyo</a>
+            <a class="dropdown-item" href="sydney.html">Sydney</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            GitHub
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://github.com/CesarPinardi">César Pinardi</a>
+            <a class="dropdown-item" href="https://github.com/fabiodumont">Fabio Dumont</a>
+            <a class="dropdown-item" href="https://github.com/marcoslelis">Marcos Lelis</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </nav>
+        <div class="card bg-dark text-white">
+          <img src="imagens/Rome_Italy_Houses_Night_Dome_532906_1920x1080.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h4 class="card-title text-center">Bem Vindo(a):</h4>
+            <h1 class="card-title text-center">Roma!</14>
+          </div>
+        </div>
+        <br>
+        
+
+        <div style="background-color: rgb(52, 58, 64)">
+          <h2 style="color: white;"> &nbsp; Tudo o que você precisa saber sobre Roma!</h2>
+        </div>
+        <br>
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">  
+            <div class="card-header" id="headingOne">
+              <h4 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Os principais pontos turísticos
+                </button>
+              </h4>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Roma é uma cidade gigante! A capital da Itália e também maior cidade do país, possui mais de mil anos de história, e claro, inúmeros pontos turísticos.
+                É claro que, caso esteja em Roma, você tem que conhecer o Coliseu, a Fontana di Trevi, a Piazza Venezia (onde fica o Monumento a Vittorio Emmanuele II).
+                Não podemos esquecer do vaticano, o menor país do mundo, que é localizado bem no centro da cidade, e a Basílica, onde a cúpula pode ser vista em diferentes pontos da cidade!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Como se locomover
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Roma possui uma rede de metrô bem completa, que te leva de norte a sul, além de ônibus e táxis, fique atento quanto a Uber, pois não é permitido em alguns 
+                pontos da cidade! Mas o mais legal é com certeza explorar Roma a pé, apesar de ser uma cidade bem grande, é muito interessante poder encontrar
+                construções antigas, da época do império, em uma esquina qualquer, logo, se tem tempo, é o melhor a se fazer!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Quantos dias ficar
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Roma pode sim ser conhecida em 2-3 dias, é verdade, porém, como já foi dito antes, a cidade é grande, com muitos pontos turísticos, e muita coisa pra conhecer.
+                Por isso, recomendamos pelo menos 4 dias, para ter a chance de conhecer os principais (sim, só os principais) dessa cidade incrível.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Mapa da cidade
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Aqui vamos deixar alguns mapas da cidade:
+                <br><a href="https://pt.romemap360.com/mapa-turistico-roma" style="color: white;" target="_blank"> Mapa da cidade </a>
+                <br><a href="https://www.metropolitanadiroma.it/images/notizie/2019-10/mappa_metro_roma_linea_a_linea_b_linea_c_2019.png" style="color: white" target="_blank"> Mapa do metro </a>
+              </div>
+            </div>
+          </div>
+        <footer class="page-footer">
+          <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+            <a href="https://github.com/fabiodumont/TP/tree/master/Exercicios/06_exercicio_bootstrap" style="color: white;"> GitHub do Projeto</a>
+          </div>
+        </footer>
+  </body>
+</html>

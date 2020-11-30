@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+    <llik rel="stylesheet" href="style.css">
+    <script rel="text/javascript" src="bootstrap\js\jquery-3.5.1.min.js"> </script>
+    <script rel ="text/javascript"src="bootstrap\js\bootstrap.js"> </script>
+    <title>Buenos Aires</title>
+</head>
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "aaa2ab02-6c60-4fa9-9b39-bf2bf468cc92", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "ebfeb1d3-32d4-4c66-8d05-7bf5da9b2a9f", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">PucTravel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cidades
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="roma.html">Roma</a>
+            <a class="dropdown-item" href="buenosAires.html">Buenos Aires</a>
+            <a class="dropdown-item" href="FozDoIguacu.html">Foz do Iguaçu</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            GitHub
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://github.com/CesarPinardi">César Pinardi</a>
+            <a class="dropdown-item" href="https://github.com/fabiodumont">Fabio Dumont</a>
+            <a class="dropdown-item" href="https://github.com/marcoslelis">Marcos Lelis</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </nav>
+    <div class="card bg-dark text-white">
+      <img src="imagens/buenos-aires-wallpaper-3.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h4 class="card-title text-center">Bem Vindo(a):</h4>
+        <h1 class="card-title text-center">Buenos Aires!</14>
+      </div>
+    </div>
+        <br>
+        
+
+        <div>
+          <h3 style="color: white;">&nbsp; Tudo o que você precisa saber sobre Buenos Aires!</h3>
+        </div>
+        <br>
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Os principais pontos turísticos
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                 Buenos Aires é a capital da Argentina e possui muitos pontos turísticos como a Casa Rosada, a Plaza de Mayo, o Obelisco que comemora os 400 anos da cidade. 
+                Um lugar muito bonito de se ver é o Teatro Cólon, por fora sua grandiosidade já impressiona, mas por dentro a riqueza de detalhes deixam os visitantes deslumbrados!
+                Um lugar incomum de se pensar em visitar é o Cemitério Recoleta, apesar de ser um ponto estranho, nele há mausoléus de figuras importantes para a Argentina, como Eva Duarte de Péron, ou Evita.
+                É recomendável fazer o tour guiado do cemitério, para ficar sabendo histórias e lendas, o que deixa o passeio bem mais divertido!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Como se locomover
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+               Antes de te recomendar algum transporte existe um aplicativo chamado “BA Como Llego” disponível para Iphone e Android, onde se coloca o local de saida e o local de chegada e ele te 
+               mostra as melhores opções de transporte!<br>
+               O metrô é a forma mais rápida de se chegar a qualquer lugar, os ônibus também são uma boa opção, pois é a mais econômica. Em uma cidade tão grande 
+               como Buenos Aires uma opção barata e ecológica é ir de bicicleta e sempre há a opção de conhecer a cidade andando e desfrutrando de todos os detalhes.
+                
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Quantos dias ficar
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Buenos Aires é uma cidade grande, para conhecer os principais pontos turísticos e um pouco da cidade, 3 dias seria o sugerido, mas se quiser desfrutar a cidade inteira recomendamos 5-7 dias
+                e você poderá conhecer muito mais!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Mapa da cidade
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Aqui vamos deixar alguns mapas da cidade:
+                <br><a href="https://www.buenosairesturismo.com.br/mapa-cidade.php" style="color: white;" target="_blank"> Mapa da cidade </a>
+                <br><a href="https://aguiarbuenosaires.com/wp-content/uploads/2018/04/3_mapa_Metro-800x576.jpg" style="color: white" target="_blank"> Mapa do metro </a>
+              </div>
+            </div>
+          </div>
+        <footer class="page-footer">
+          <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+            <a href="https://github.com/fabiodumont/TP/tree/master/Exercicios/06_exercicio_bootstrap" style="color: white;"> GitHub do Projeto</a>
+          </div>
+        </footer>
+  </body>
+</html>
