@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+    <llik rel="stylesheet" href="style.css">
+    <script rel="text/javascript" src="bootstrap\js\jquery-3.5.1.min.js"> </script>
+    <script rel ="text/javascript"src="bootstrap\js\bootstrap.js"> </script>
+    <title>PucTravel</title>
+</head>
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "aaa2ab02-6c60-4fa9-9b39-bf2bf468cc92", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "ebfeb1d3-32d4-4c66-8d05-7bf5da9b2a9f", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">PucTravel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cidades
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="roma.html">Roma</a>
+            <a class="dropdown-item" href="buenosAires.html">Buenos Aires</a>
+            <a class="dropdown-item" href="FozDoIguacu.html">Foz do Iguaçu</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            GitHub
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://github.com/CesarPinardi">César Pinardi</a>
+            <a class="dropdown-item" href="https://github.com/fabiodumont">Fabio Dumont</a>
+            <a class="dropdown-item" href="https://github.com/marcoslelis">Marcos Lelis</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/Bridges_Rivers_Evening_Italy_Rome_Cathedral_550636_1920x1080.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Roma</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/Beautiful-Iguazu-Falls_1920x1080.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Foz do Iguaçu</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/buenos-aires-wallpaper-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Buenos Aires</h5>
+              
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <br>
+    <br>
+    <!-- res img: 1205x964-->
+    <div class="card-group">
+      <div class="card bg-dark">
+        <img src="imagens/thumbroma-1.jpg" class="card-img-top" alt="meet-roma">
+        <div class="card-body">
+          <h5 class="card-title text-center">Conhecer Roma!</h5>
+          <p class="card-text">Aqui poderá conhecer os principais pontos turísticos, os mapas da cidade, nossas dicas de restaurantes e muito mais, clique no botão abaixo para acessar a página!</p>
+          <div class="text-center"> 
+            <a href="roma.html" class="btn btn-light">Conhecer Roma!</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <img src="imagens/thumb-buenos.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Conhecer Buenos Aires!</h5>
+          <p class="card-text">Aqui poderá conhecer os principais pontos turísticos, os mapas da cidade, nossas dicas de restaurantes e muito mais, clique no botão abaixo para acessar a página!</p>
+          <div class="text-center"> 
+            <a href="buenosAires.html" class="btn btn-light">Conhecer Buenos Aires!</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <img src="imagens/foz.jpg" class="card-img-top" alt="..."> 
+        <div class="card-body">
+          <h5 class="card-title text-center">Conhecer Foz do Iguaçu!</h5>
+          <p class="card-text">Aqui poderá conhecer os principais pontos turísticos, os mapas da cidade, nossas dicas de restaurantes e muito mais, clique no botão abaixo para acessar a página!</p>
+          <div class="text-center"> 
+            <a href="FozDoIguacu.html" class="btn btn-light">Conhecer Foz do Iguaçu!</a>
+          </div>
+        </div>
+      </div>
+      </div>
+ 
+
+  <footer class="page-footer">
+    <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+      <a href="https://github.com/fabiodumont/TP/tree/master/Exercicios/06_exercicio_bootstrap" style="color: white;"> GitHub do Projeto</a>
+    </div>
+  </footer>
+</body>
+</html>                                      
